@@ -23,7 +23,6 @@ PRODUCT_COPY_FILES += \
     vendor/wileyfox/crackling/proprietary/bin/mm-pp-daemon:system/bin/mm-pp-daemon \
     vendor/wileyfox/crackling/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/wileyfox/crackling/proprietary/bin/netmgrd:system/bin/netmgrd \
-    vendor/wileyfox/crackling/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
     vendor/wileyfox/crackling/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/wileyfox/crackling/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/wileyfox/crackling/proprietary/bin/radish:system/bin/radish \
@@ -196,7 +195,6 @@ PRODUCT_COPY_FILES += \
     vendor/wileyfox/crackling/proprietary/vendor/lib/libqmiservices.so:system/vendor/lib/libqmiservices.so \
     vendor/wileyfox/crackling/proprietary/vendor/lib/libqomx_jpegdec.so:system/vendor/lib/libqomx_jpegdec.so \
     vendor/wileyfox/crackling/proprietary/vendor/lib/libqomx_jpegenc.so:system/vendor/lib/libqomx_jpegenc.so \
-    vendor/wileyfox/crackling/proprietary/vendor/lib/libqti-perfd-client.so:system/vendor/lib/libqti-perfd-client.so \
     vendor/wileyfox/crackling/proprietary/vendor/lib/libril-qc-qmi-1.so:system/vendor/lib/libril-qc-qmi-1.so \
     vendor/wileyfox/crackling/proprietary/vendor/lib/libril-qc-radioconfig.so:system/vendor/lib/libril-qc-radioconfig.so \
     vendor/wileyfox/crackling/proprietary/vendor/lib/libril-qcril-hook-oem.so:system/vendor/lib/libril-qcril-hook-oem.so \
