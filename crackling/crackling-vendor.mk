@@ -19,7 +19,6 @@ PRODUCT_COPY_FILES += \
     vendor/wileyfox/crackling/proprietary/bin/adsprpcd:system/bin/adsprpcd \
     vendor/wileyfox/crackling/proprietary/bin/btnvtool:system/bin/btnvtool \
     vendor/wileyfox/crackling/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
-    vendor/wileyfox/crackling/proprietary/bin/irsc_util:system/bin/irsc_util \
     vendor/wileyfox/crackling/proprietary/bin/mm-pp-daemon:system/bin/mm-pp-daemon \
     vendor/wileyfox/crackling/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/wileyfox/crackling/proprietary/bin/netmgrd:system/bin/netmgrd \
@@ -41,8 +40,6 @@ PRODUCT_COPY_FILES += \
     vendor/wileyfox/crackling/proprietary/etc/firmware/venus.b04:system/etc/firmware/venus.b04 \
     vendor/wileyfox/crackling/proprietary/etc/firmware/venus.mbn:system/etc/firmware/venus.mbn \
     vendor/wileyfox/crackling/proprietary/etc/firmware/venus.mdt:system/etc/firmware/venus.mdt \
-    vendor/wileyfox/crackling/proprietary/etc/permissions/qcnvitems.xml:system/etc/permissions/qcnvitems.xml \
-    vendor/wileyfox/crackling/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
     vendor/wileyfox/crackling/proprietary/lib/libOmxVdecHevc.so:system/lib/libOmxVdecHevc.so \
     vendor/wileyfox/crackling/proprietary/lib/libwcnss_qmi.so:system/lib/libwcnss_qmi.so \
     vendor/wileyfox/crackling/proprietary/etc/firmware/a300_pfp.fw:system/etc/firmware/a300_pfp.fw \
@@ -140,7 +137,6 @@ PRODUCT_COPY_FILES += \
     vendor/wileyfox/crackling/proprietary/vendor/lib/liblbs_core.so:system/vendor/lib/liblbs_core.so \
     vendor/wileyfox/crackling/proprietary/vendor/lib/libllvm-glnext.so:system/vendor/lib/libllvm-glnext.so \
     vendor/wileyfox/crackling/proprietary/vendor/lib/libllvm-qcom.so:system/vendor/lib/libllvm-qcom.so \
-    vendor/wileyfox/crackling/proprietary/vendor/lib/liblqe.so:system/vendor/lib/liblqe.so \
     vendor/wileyfox/crackling/proprietary/vendor/lib/libmdmdetect.so:system/vendor/lib/libmdmdetect.so \
     vendor/wileyfox/crackling/proprietary/vendor/lib/libmm-abl-oem.so:system/vendor/lib/libmm-abl-oem.so \
     vendor/wileyfox/crackling/proprietary/vendor/lib/libmm-abl.so:system/vendor/lib/libmm-abl.so \
@@ -196,7 +192,6 @@ PRODUCT_COPY_FILES += \
     vendor/wileyfox/crackling/proprietary/vendor/lib/libqomx_jpegdec.so:system/vendor/lib/libqomx_jpegdec.so \
     vendor/wileyfox/crackling/proprietary/vendor/lib/libqomx_jpegenc.so:system/vendor/lib/libqomx_jpegenc.so \
     vendor/wileyfox/crackling/proprietary/vendor/lib/libril-qc-qmi-1.so:system/vendor/lib/libril-qc-qmi-1.so \
-    vendor/wileyfox/crackling/proprietary/vendor/lib/libril-qc-radioconfig.so:system/vendor/lib/libril-qc-radioconfig.so \
     vendor/wileyfox/crackling/proprietary/vendor/lib/libril-qcril-hook-oem.so:system/vendor/lib/libril-qcril-hook-oem.so \
     vendor/wileyfox/crackling/proprietary/vendor/lib/librpmb.so:system/vendor/lib/librpmb.so \
     vendor/wileyfox/crackling/proprietary/vendor/lib/librs_adreno.so:system/vendor/lib/librs_adreno.so \
@@ -220,8 +215,4 @@ PRODUCT_PACKAGES += \
     libloc_api_v02 \
     libloc_ds_api \
     libtime_genoff \
-    TimeService \
-    shutdownlistener \
-    qcrilmsgtunnel \
-    qcnvitems \
-    qcrilhook
+    TimeService
